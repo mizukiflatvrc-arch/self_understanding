@@ -10,9 +10,9 @@
 - 作業ブランチ：`feature/phase2-trace-ui`。
 - Phase 2実装コミット：`9e75e2965cba39f29f98ad94b3e689bd5cc0911c`（`feat: implement Phase 2 Trace UI`）。12ファイルの実装・テスト・README更新を含みます。
 - Phase 1基準：`6ca5109e08a0d7e2779c6d028e1ed8c44e858a8b`（`Complete Phase 1 Room foundation and Japanese README`）。ローカル`main`と`origin/main`はこのコミットです。
-- リモート：`git@github.com:mizukiflatvrc-arch/self_understanding.git`（Public）。2026-10-02に`git ls-remote --heads origin`で確認した実際のリモートも、上記Phase 1コミットの`main`のみでした。
-- Phase 2はローカル作業ブランチにのみ反映済みです。Push・PR作成・mainへのマージは未実施かつ今回の許可対象外です。
-- この文書を含む文書整備は、Phase 2コミットの後に別コミット`docs: add agent instructions and project status`としてまとめる作業です。文書自身のコミットIDはここへ埋め込まず、`git log -1`と`git status --short --branch`で実際のHEAD／作業ツリーを確認してください。
+- リモート：`git@github.com:mizukiflatvrc-arch/self_understanding.git`（Public）。2026-10-02の文書整備時点では上記Phase 1コミットの`main`のみでした。その後、ユーザーのPush承認を受け、作業ブランチをGitHubへ新規Pushしました。
+- Phase 2実装`9e75e29`と文書整備`033d432`は`origin/feature/phase2-trace-ui`へPush済みです。ローカル作業ブランチは同リモートブランチを追跡します。PR作成・mainへのマージは未実施かつ未承認です。
+- 文書整備はPhase 2コミットの後に別コミット`033d432d9394e168cbb364af2095d6d301fc1ef5`（`docs: add agent instructions and project status`）として完了しました。今回のPush状況の更新も後続の文書コミットに記録します。文書自身のコミットIDはここへ埋め込まず、`git log -1`と`git status --short --branch`で実際のHEAD／作業ツリーを確認してください。
 - 文書整備コミット後の想定状態は未コミット変更なしです。変更が存在する場合は、新しい変更か文書整備の未完了かを実差分で確認し、独断で破棄・コミットしないでください。
 
 ## フェーズ計画
@@ -91,4 +91,4 @@ JVM結果：`app/build/test-results/testDebugUnitTest/`、HTML：`app/build/repo
 - 7種類のNodeType選択、UNKNOWNを初期選択とし、分類できなくても記録できる設計。
 - 既存Repositoryと保存仕様の再利用、ライフサイクル・エラー・データ保全、必要なテストと文書更新。
 
-Phase 3の実装開始は未承認です。調査・計画の提示後に明示的な承認を得てから実装してください。Phase 4・5、LLM、クラウド等を先取りしません。Phase 2／文書コミットのPush・PR・マージも別途承認が必要です。
+Phase 3の実装開始は未承認です。調査・計画の提示後に明示的な承認を得てから実装してください。Phase 4・5、LLM、クラウド等を先取りしません。Phase 2／文書コミットのPushは承認済み・実施済みです。PR作成・マージには別途承認が必要です。
