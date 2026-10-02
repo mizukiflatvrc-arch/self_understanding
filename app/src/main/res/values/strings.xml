@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">self_understanding</string>
+    <string name="trace_list">Trace一覧</string>
+    <string name="trace_detail">Trace詳細</string>
+    <string name="back_to_list">一覧に戻る</string>
+    <string name="create_trace">新しいTrace</string>
+    <string name="open_trace">Traceを開く</string>
+    <string name="trace_title">タイトル</string>
+    <string name="trace_title_hint">空のままでも保存できます</string>
+    <string name="untitled_trace">無題のTrace</string>
+    <string name="trace_started_at">開始日時：%1$s</string>
+    <string name="save_trace">保存</string>
+    <string name="cancel">キャンセル</string>
+    <string name="retry">再試行</string>
+    <string name="loading_traces">読み込み中</string>
+    <string name="saving_trace">保存中</string>
+    <string name="no_traces">Traceはまだありません</string>
+    <string name="no_traces_hint">「新しいTrace」から記録を始められます</string>
+    <string name="trace_list_error">一覧を読み込めませんでした</string>
+    <string name="trace_detail_error">Traceを読み込めませんでした</string>
+    <string name="trace_missing">Traceが見つかりません</string>
+    <string name="trace_create_error">保存できませんでした。もう一度お試しください</string>
+    <string name="initialization_error">保存機能を準備できませんでした</string>
 </resources>
